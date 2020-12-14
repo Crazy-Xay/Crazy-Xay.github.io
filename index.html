@@ -157,7 +157,8 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>#include&lt;stdio.h&gt;<br>#include&lt;string.h&gt;         //引入库函数</p>
+        <a id="more"></a>
+<p>#include&lt;stdio.h&gt;<br>#include&lt;string.h&gt;         //引入库函数</p>
 <p>void invstr(char *s)       //定义倒序存放的函数<br>{<br>    char <em>p,t;<br>    int i,len=strlen(s);<br>    for(i=0,p=s;i&lt;len/2;i++)<br>    {<br>        t=</em>(p+i);<br>        <em>(p+i)=</em>(p+len-i-1);     //将数组的前一半与后一半对换<br>        *(p+len-i-1)=t;<br>    }<br>}<br>int main()<br>{<br>    char a[10000];<br>    gets(a);<br>    invstr(a);<br>    printf(“%s”,a);     //输出倒序后的数组<br>    return 0;<br>}</p>
 
       
