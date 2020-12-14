@@ -152,6 +152,55 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-Text1" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>#include&lt;stdio.h&gt;<br>#include&lt;string.h&gt;         //引入库函数</p>
+<p>void invstr(char *s)       //定义倒序存放的函数<br>{<br>    char <em>p,t;<br>    int i,len=strlen(s);<br>    for(i=0,p=s;i&lt;len/2;i++)<br>    {<br>        t=</em>(p+i);<br>        <em>(p+i)=</em>(p+len-i-1);     //将数组的前一半与后一半对换<br>        *(p+len-i-1)=t;<br>    }<br>}<br>int main()<br>{<br>    char a[10000];<br>    gets(a);<br>    invstr(a);<br>    printf(“%s”,a);     //输出倒序后的数组<br>    return 0;<br>}</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2020/12/14/Text1/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-Shelby" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
