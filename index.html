@@ -154,19 +154,94 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-#指针编写函数invstr--字符串逆序存放输出#" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-2020-12-17-冒泡排序" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/12/17/#%E6%8C%87%E9%92%88%E7%BC%96%E5%86%99%E5%87%BD%E6%95%B0invstr--%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%80%86%E5%BA%8F%E5%AD%98%E6%94%BE%E8%BE%93%E5%87%BA#/">指针编写函数invstr--字符串逆序存放输出</a>
+      <a class="article-title" href="/2020/12/17/2020-12-17-%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F/">冒泡排序</a>
     </h1>
   
 
         
-        <a href="/2020/12/17/#%E6%8C%87%E9%92%88%E7%BC%96%E5%86%99%E5%87%BD%E6%95%B0invstr--%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%80%86%E5%BA%8F%E5%AD%98%E6%94%BE%E8%BE%93%E5%87%BA#/" class="archive-article-date">
+        <a href="/2020/12/17/2020-12-17-%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F/" class="archive-article-date">
+  	<time datetime="2020-12-17T08:19:35.144Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-12-17</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">swap</span><span class="params">(<span class="keyword">int</span> *a,<span class="keyword">int</span> *b)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> temp;</span><br><span class="line">    temp=*a;</span><br><span class="line">    *a=*b;    <span class="comment">//编写交换值函数swap</span></span><br><span class="line">    *b=temp;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;n);</span><br><span class="line">    <span class="keyword">int</span> a[n];</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;n;i++)</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,a+i);</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;n<span class="number">-1</span>;i++)      <span class="comment">//冒泡排序主题</span></span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=i+<span class="number">1</span>;j&lt;n;j++)</span><br><span class="line">            <span class="keyword">if</span>(a[i]&gt;a[j])</span><br><span class="line">            swap(&amp;a[i],&amp;a[j]);</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;n;i++)</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;%d &quot;</span>,a[i]);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Programming-ACS</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2020/12/17/2020-12-17-%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-2020-12-17-指针编写字符串逆序存放输出" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/12/17/2020-12-17-%E6%8C%87%E9%92%88%E7%BC%96%E5%86%99%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%80%86%E5%BA%8F%E5%AD%98%E6%94%BE%E8%BE%93%E5%87%BA/">指针编写函数invstr--字符串逆序存放输出</a>
+    </h1>
+  
+
+        
+        <a href="/2020/12/17/2020-12-17-%E6%8C%87%E9%92%88%E7%BC%96%E5%86%99%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%80%86%E5%BA%8F%E5%AD%98%E6%94%BE%E8%BE%93%E5%87%BA/" class="archive-article-date">
   	<time datetime="2020-12-17T07:48:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-12-17</time>
 </a>
         
@@ -200,7 +275,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2020/12/17/#%E6%8C%87%E9%92%88%E7%BC%96%E5%86%99%E5%87%BD%E6%95%B0invstr--%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%80%86%E5%BA%8F%E5%AD%98%E6%94%BE%E8%BE%93%E5%87%BA#/">展开全文 >></a>
+          <a class="article-more-a" href="/2020/12/17/2020-12-17-%E6%8C%87%E9%92%88%E7%BC%96%E5%86%99%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%80%86%E5%BA%8F%E5%AD%98%E6%94%BE%E8%BE%93%E5%87%BA/">展开全文 >></a>
         </p>
       
 
@@ -250,7 +325,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="Quick-View"><a href="#Quick-View" class="headerlink" title="Quick View"></a>Quick View</h2><h3 id="My-QQ-number-1215627501"><a href="#My-QQ-number-1215627501" class="headerlink" title="My QQ number : 1215627501"></a>My QQ number : 1215627501</h3><h3 id="My-Email-address-x31-x32-x31-x35-x36-50-x37-x35-48-49-x40-x71-x71-46-x63-111-109"><a href="#My-Email-address-x31-x32-x31-x35-x36-50-x37-x35-48-49-x40-x71-x71-46-x63-111-109" class="headerlink" title="My Email address : &#x31;&#x32;&#x31;&#x35;&#x36;&#50;&#x37;&#x35;&#48;&#49;&#x40;&#x71;&#x71;&#46;&#x63;&#111;&#109;"></a>My Email address : <a href="mailto:&#x31;&#x32;&#x31;&#x35;&#x36;&#50;&#x37;&#x35;&#48;&#49;&#x40;&#x71;&#x71;&#46;&#x63;&#111;&#109;">&#x31;&#x32;&#x31;&#x35;&#x36;&#50;&#x37;&#x35;&#48;&#49;&#x40;&#x71;&#x71;&#46;&#x63;&#111;&#109;</a></h3><h3 id="My-Wechat-name-MarshmelloJp"><a href="#My-Wechat-name-MarshmelloJp" class="headerlink" title="My Wechat name : MarshmelloJp"></a>My Wechat name : MarshmelloJp</h3><h4 id="If-you-have-any-questions-you-can-contact-me-in-the-above-ways"><a href="#If-you-have-any-questions-you-can-contact-me-in-the-above-ways" class="headerlink" title="If you have any questions, you can contact me in the above ways."></a><strong>If you have any questions, you can contact me in the above ways.</strong></h4><p><img src="/.com//Users\Marshmello\Pictures\哔哩哔哩动画\287520355_cover.jpg" alt="我的师傅"></p>
+        <h2 id="Quick-View"><a href="#Quick-View" class="headerlink" title="Quick View"></a>Quick View</h2><h3 id="My-QQ-number-1215627501"><a href="#My-QQ-number-1215627501" class="headerlink" title="My QQ number : 1215627501"></a>My QQ number : 1215627501</h3><h3 id="My-Email-address-x31-x32-49-53-x36-50-55-x35-x30-x31-x40-113-113-46-x63-111-x6d"><a href="#My-Email-address-x31-x32-49-53-x36-50-55-x35-x30-x31-x40-113-113-46-x63-111-x6d" class="headerlink" title="My Email address : &#x31;&#x32;&#49;&#53;&#x36;&#50;&#55;&#x35;&#x30;&#x31;&#x40;&#113;&#113;&#46;&#x63;&#111;&#x6d;"></a>My Email address : <a href="mailto:&#x31;&#x32;&#49;&#53;&#x36;&#50;&#55;&#x35;&#x30;&#x31;&#x40;&#113;&#113;&#46;&#x63;&#111;&#x6d;">&#x31;&#x32;&#49;&#53;&#x36;&#50;&#55;&#x35;&#x30;&#x31;&#x40;&#113;&#113;&#46;&#x63;&#111;&#x6d;</a></h3><h3 id="My-Wechat-name-MarshmelloJp"><a href="#My-Wechat-name-MarshmelloJp" class="headerlink" title="My Wechat name : MarshmelloJp"></a>My Wechat name : MarshmelloJp</h3><h4 id="If-you-have-any-questions-you-can-contact-me-in-the-above-ways"><a href="#If-you-have-any-questions-you-can-contact-me-in-the-above-ways" class="headerlink" title="If you have any questions, you can contact me in the above ways."></a><strong>If you have any questions, you can contact me in the above ways.</strong></h4><p><img src="/.com//Users\Marshmello\Pictures\哔哩哔哩动画\287520355_cover.jpg" alt="我的师傅"></p>
 
       
 
