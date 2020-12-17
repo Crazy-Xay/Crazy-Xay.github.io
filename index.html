@@ -154,12 +154,15 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-Text1" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-#指针编写函数invstr--字符串逆序存放输出#" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
     <div class="article-entry" itemprop="articleBody">
       
-        <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#include&lt;string.h&gt;         &#x2F;&#x2F;引入库函数</span><br><span class="line"></span><br><span class="line">void invstr(char *s)       &#x2F;&#x2F;定义倒序存放的函数</span><br><span class="line">&lt;!--more--&gt;</span><br><span class="line">&#123;</span><br><span class="line">    char *p,t;</span><br><span class="line">	int i,len&#x3D;strlen(s);</span><br><span class="line">	for(i&#x3D;0,p&#x3D;s;i&lt;len&#x2F;2;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		t&#x3D;*(p+i);</span><br><span class="line">		*(p+i)&#x3D;*(p+len-i-1);     &#x2F;&#x2F;将数组的前一半与后一半对换</span><br><span class="line">		*(p+len-i-1)&#x3D;t;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	char a[10000];</span><br><span class="line">	gets(a);</span><br><span class="line">	invstr(a);</span><br><span class="line">	printf(&quot;%s&quot;,a);     &#x2F;&#x2F;输出倒序后的数组</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+        <p>#指针编写函数invstr–字符串逆序存放输出#</p>
+        
+          <a class="article-more-a" href="/2020/12/17/#%E6%8C%87%E9%92%88%E7%BC%96%E5%86%99%E5%87%BD%E6%95%B0invstr--%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%80%86%E5%BA%8F%E5%AD%98%E6%94%BE%E8%BE%93%E5%87%BA#/#more">more >></a>
+        
       
 
       
@@ -171,7 +174,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2020/12/14/Text1/">展开全文 >></a>
+          <a class="article-more-a" href="/2020/12/17/#%E6%8C%87%E9%92%88%E7%BC%96%E5%86%99%E5%87%BD%E6%95%B0invstr--%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%80%86%E5%BA%8F%E5%AD%98%E6%94%BE%E8%BE%93%E5%87%BA#/">展开全文 >></a>
         </p>
       
 
