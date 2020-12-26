@@ -154,6 +154,157 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-2020-12-25-圣诞节月赛" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/12/25/2020-12-25-%E5%9C%A3%E8%AF%9E%E8%8A%82%E6%9C%88%E8%B5%9B/">圣诞节月赛</a>
+    </h1>
+  
+
+        
+        <a href="/2020/12/25/2020-12-25-%E5%9C%A3%E8%AF%9E%E8%8A%82%E6%9C%88%E8%B5%9B/" class="archive-article-date">
+  	<time datetime="2020-12-24T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-12-25</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><strong><del>为啥和新风杯一样的结果啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</del></strong></p>
+<h3 id="A-分糖果-HDU-2034集合的减法A-B"><a href="#A-分糖果-HDU-2034集合的减法A-B" class="headerlink" title="A.分糖果(HDU-2034集合的减法A-B)"></a>A.分糖果(HDU-2034集合的减法A-B)</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">sort</span><span class="params">(<span class="keyword">int</span> a[],<span class="keyword">int</span> n)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> t;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;n<span class="number">-1</span>;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=i+<span class="number">1</span>;j&lt;n;j++)    <span class="comment">//题目要求按从小到大顺序输出</span></span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span>(a[i]&gt;a[j])</span><br><span class="line">            &#123;</span><br><span class="line">                t=a[i];</span><br><span class="line">                a[i]=a[j];</span><br><span class="line">                a[j]=t;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n,m;</span><br><span class="line">    <span class="keyword">while</span>(~<span class="built_in">scanf</span>(<span class="string">&quot;%d%d&quot;</span>,&amp;n,&amp;m))</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(n==<span class="number">0</span>&amp;&amp;m==<span class="number">0</span>)</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">int</span> a[<span class="number">101</span>]=&#123;<span class="number">0</span>&#125;,b[<span class="number">101</span>]=&#123;<span class="number">0</span>&#125;,c[<span class="number">101</span>]=&#123;<span class="number">0</span>&#125;,k=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;n;i++)</span><br><span class="line">            <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;a[i]);</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;m;i++)</span><br><span class="line">            <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;b[i]);</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;n;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">int</span> flag1=<span class="number">0</span>;</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">0</span>;j&lt;m;j++)</span><br><span class="line">            <span class="keyword">if</span>(a[i]==b[j])</span><br><span class="line">                flag1++;</span><br><span class="line">            <span class="keyword">if</span>(flag1==<span class="number">0</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                c[k]=a[i];</span><br><span class="line">                k++;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(k==<span class="number">0</span>)</span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">&quot;NULL\n&quot;</span>);</span><br><span class="line">        <span class="keyword">else</span>&#123;</span><br><span class="line">            sort(c,k);</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;k;i++)</span><br><span class="line">                <span class="built_in">printf</span>(<span class="string">&quot;%d &quot;</span>,c[i]);</span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="B-简单深搜dp没做来啊啊啊啊啊啊啊啊急死我了"><a href="#B-简单深搜dp没做来啊啊啊啊啊啊啊啊急死我了" class="headerlink" title="B.简单深搜dp没做来啊啊啊啊啊啊啊啊急死我了"></a>B.简单深搜dp没做来啊啊啊啊啊啊啊啊急死我了</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">-Programming-ACS</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2020/12/25/2020-12-25-%E5%9C%A3%E8%AF%9E%E8%8A%82%E6%9C%88%E8%B5%9B/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-2020-12-24-手记(杂)" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/12/24/2020-12-24-%E6%89%8B%E8%AE%B0(%E6%9D%82)/">手记(杂)</a>
+    </h1>
+  
+
+        
+        <a href="/2020/12/24/2020-12-24-%E6%89%8B%E8%AE%B0(%E6%9D%82)/" class="archive-article-date">
+  	<time datetime="2020-12-23T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-12-24</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">-Programming-ACS</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2020/12/24/2020-12-24-%E6%89%8B%E8%AE%B0(%E6%9D%82)/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-2020-12-22-东北林业大学第15届校赛（大一组）赛后思考" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -591,19 +742,19 @@
 
 
   
-    <article id="post-2020-12-17-指针编写字符串逆序存放输出" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-2020-12-17-汇编语言" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/12/17/2020-12-17-%E6%8C%87%E9%92%88%E7%BC%96%E5%86%99%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%80%86%E5%BA%8F%E5%AD%98%E6%94%BE%E8%BE%93%E5%87%BA/">指针编写函数invstr--字符串逆序存放输出</a>
+      <a class="article-title" href="/2020/12/17/2020-12-17-%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/">汇编语言</a>
     </h1>
   
 
         
-        <a href="/2020/12/17/2020-12-17-%E6%8C%87%E9%92%88%E7%BC%96%E5%86%99%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%80%86%E5%BA%8F%E5%AD%98%E6%94%BE%E8%BE%93%E5%87%BA/" class="archive-article-date">
+        <a href="/2020/12/17/2020-12-17-%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/" class="archive-article-date">
   	<time datetime="2020-12-16T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-12-17</time>
 </a>
         
@@ -611,9 +762,8 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;string.h&gt;         //引入库函数</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">invstr</span><span class="params">(<span class="keyword">char</span> *s)</span>       <span class="comment">//定义倒序存放的函数</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">char</span> *p,t;</span><br><span class="line">	<span class="keyword">int</span> i,len=<span class="built_in">strlen</span>(s);</span><br><span class="line">	<span class="keyword">for</span>(i=<span class="number">0</span>,p=s;i&lt;len/<span class="number">2</span>;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		t=*(p+i);</span><br><span class="line">		*(p+i)=*(p+len-i<span class="number">-1</span>);     <span class="comment">//将数组的前一半与后一半对换</span></span><br><span class="line">		*(p+len-i<span class="number">-1</span>)=t;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">char</span> a[<span class="number">10000</span>];</span><br><span class="line">	gets(a);</span><br><span class="line">	invstr(a);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;%s&quot;</span>,a);     <span class="comment">//输出倒序后的数组</span></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>这是我用指针写的第一个函数,Keep Fighting.</strong></p>
+        <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">assume cs:codesg    &#x2F;&#x2F;伪指令</span><br><span class="line">codesg  segment</span><br><span class="line"></span><br><span class="line">mov ax,0123h</span><br><span class="line">mov bx,0456h</span><br><span class="line">add ax,bx      &#x2F;&#x2F;现在还只能写出十六进制的加法</span><br><span class="line">add ax,ax</span><br><span class="line"></span><br><span class="line">mov ax,4c00h</span><br><span class="line">int 21h</span><br><span class="line"></span><br><span class="line">codesg  ends</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
+<p><code>2020-12-17汇编语言loop 寄存器地址设置寒假再看</code></p>
 
       
 
@@ -627,7 +777,7 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Programming-ACS</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">-Assembly language</a>
         		</li>
       		
 		</ul>
@@ -637,7 +787,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2020/12/17/2020-12-17-%E6%8C%87%E9%92%88%E7%BC%96%E5%86%99%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%80%86%E5%BA%8F%E5%AD%98%E6%94%BE%E8%BE%93%E5%87%BA/">展开全文 >></a>
+          <a class="article-more-a" href="/2020/12/17/2020-12-17-%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/">展开全文 >></a>
         </p>
       
 
@@ -714,157 +864,6 @@
       
         <p class="article-more-link">
           <a class="article-more-a" href="/2020/12/17/2020-12-17-%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E5%90%88%E9%9B%86/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-2020-12-17-汇编语言" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/12/17/2020-12-17-%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/">汇编语言</a>
-    </h1>
-  
-
-        
-        <a href="/2020/12/17/2020-12-17-%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/" class="archive-article-date">
-  	<time datetime="2020-12-16T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-12-17</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">assume cs:codesg    &#x2F;&#x2F;伪指令</span><br><span class="line">codesg  segment</span><br><span class="line"></span><br><span class="line">mov ax,0123h</span><br><span class="line">mov bx,0456h</span><br><span class="line">add ax,bx      &#x2F;&#x2F;现在还只能写出十六进制的加法</span><br><span class="line">add ax,ax</span><br><span class="line"></span><br><span class="line">mov ax,4c00h</span><br><span class="line">int 21h</span><br><span class="line"></span><br><span class="line">codesg  ends</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
-<p><code>2020-12-17汇编语言loop 寄存器地址设置寒假再看</code></p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">-Assembly language</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2020/12/17/2020-12-17-%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-Shelby" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/12/17/Shelby/">WangJp_&#39;s Somethings</a>
-    </h1>
-  
-
-        
-        <a href="/2020/12/17/Shelby/" class="archive-article-date">
-  	<time datetime="2020-12-16T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-12-17</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="This-is-my-Qzone"><a href="#This-is-my-Qzone" class="headerlink" title="This is my Qzone."></a>This is my <a target="_blank" rel="noopener" href="https://user.qzone.qq.com/1215627501/infocenter">Qzone</a>.</h3><h3 id="This-is-my-CSDN"><a href="#This-is-my-CSDN" class="headerlink" title="This is my CSDN."></a>This is my <a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_49690846/">CSDN</a>.</h3>
-        
-          <a class="article-more-a" href="/2020/12/17/Shelby/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">Welcome Everybody</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2020/12/17/Shelby/">展开全文 >></a>
         </p>
       
 
@@ -995,11 +994,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Programming-ACS</a>
+                <a href="javascript:void(0)" class="js-tag color4">-Assembly language</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">-Assembly language</a>
+                <a href="javascript:void(0)" class="js-tag color1">Programming-ACS</a>
               </li>
              
               <li class="article-tag-list-item">
