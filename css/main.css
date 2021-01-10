@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #904537;
+  background: #50de1a;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2571,15 +2571,9 @@ ul.breadcrumb li + li:last-child {
   }
 }
 body {
-  background: url("/images/psc.webp");
+  background: url("/images/timg.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
   background-size: cover;
-}
-* {
-  cursor: url("http://om8u46rmb.bkt.clouddn.com/sword2.ico"), auto !important;
-}
-:active {
-  cursor: url("http://om8u46rmb.bkt.clouddn.com/sword1.ico"), auto !important;
 }
