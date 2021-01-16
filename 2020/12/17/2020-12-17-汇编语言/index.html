@@ -28,7 +28,7 @@
 <meta property="og:description" content="Flag：15天学完汇编！！🤡 1.总线说明123456781）地址总线   ;若地址总线有N根地址总线，也可以说地址总线宽度炜N就可以寻找2^N的内存单元2）数据总线   ;进行CPU与内存或其他器件之间数据传输，它的宽度决定了数据传输的速度3）控制总线   ;控制总线多少决定控制的数量注：1）汇编指令是机器指令的助记符，同机器指令一一对应2）每一种CPU都有自己的汇编指令集3）CPU可以直接">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-12-16T16:00:00.000Z">
-<meta property="article:modified_time" content="2021-01-16T05:11:34.889Z">
+<meta property="article:modified_time" content="2021-01-16T09:56:55.994Z">
 <meta property="article:author" content="汪剑平">
 <meta property="article:tag" content="-Assembly language">
 <meta name="twitter:card" content="summary">
@@ -184,7 +184,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-01-16 13:11:34" itemprop="dateModified" datetime="2021-01-16T13:11:34+08:00">2021-01-16</time>
+                <time title="修改时间：2021-01-16 17:56:55" itemprop="dateModified" datetime="2021-01-16T17:56:55+08:00">2021-01-16</time>
               </span>
 
           
@@ -220,7 +220,11 @@
 
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">;例题4的改进方法,循环连续改变ds会消耗时间,可用es来保存另一个指向地址</span><br><span class="line">assume	cs:code</span><br><span class="line">code	segment</span><br><span class="line"></span><br><span class="line">start:	</span><br><span class="line">		mov ax,0ffffh</span><br><span class="line">	    mov ds,ax</span><br><span class="line">		mov ax,0020h</span><br><span class="line">		mov es,ax</span><br><span class="line">		mov bx,0</span><br><span class="line">		mov cx,12</span><br><span class="line">s:		mov dl,[bx]</span><br><span class="line">		mov es:[bx],dl</span><br><span class="line">		inc bx</span><br><span class="line">		loop s</span><br><span class="line">		</span><br><span class="line">		mov ax,4c00h</span><br><span class="line">		int 21h</span><br><span class="line">code ends</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
 
-<h3 id="4-包含多个段的程序"><a href="#4-包含多个段的程序" class="headerlink" title="4.包含多个段的程序"></a>4.包含多个段的程序</h3>
+<h3 id="4-包含多个段的程序"><a href="#4-包含多个段的程序" class="headerlink" title="4.包含多个段的程序"></a>4.包含多个段的程序</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">;dw即define word就是定义字型数据每个字型数据占用两个字节即16bits,并且定义时默认从CS:0开始定义</span><br><span class="line">;例:累加八个数据</span><br><span class="line">assume	cs:code</span><br><span class="line">code    segment</span><br><span class="line">		dw 0123h,0456h,0789h,0abch,0defh,0fedh,0cbah,0987h</span><br><span class="line">start:	mov ax,0</span><br><span class="line">		mov bx,0</span><br><span class="line">		mov cx,8</span><br><span class="line">	s:	add ax,cs:[bx]</span><br><span class="line">		add bx,2</span><br><span class="line">		loop s</span><br><span class="line">		</span><br><span class="line">		mov ax,4c00h</span><br><span class="line">		int 21h</span><br><span class="line">code ends</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
+
+
+
+
     </div>
 
     
@@ -255,12 +259,12 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2020/12/17/2020-12-17-%E6%8C%87%E9%92%88%E7%BC%96%E5%86%99%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%80%86%E5%BA%8F%E5%AD%98%E6%94%BE%E8%BE%93%E5%87%BA/" rel="prev" title="指针编写函数invstr--字符串逆序存放输出">
-      <i class="fa fa-chevron-left"></i> 指针编写函数invstr--字符串逆序存放输出
+    <a href="/2020/12/17/About%20Tyl&WJP/" rel="prev" title="WangJp_'s Somethings">
+      <i class="fa fa-chevron-left"></i> WangJp_'s Somethings
     </a></div>
       <div class="post-nav-item">
-    <a href="/2020/12/17/2020-12-17-Python%E5%88%9D%E4%BD%93%E9%AA%8C/" rel="next" title="Python初体验">
-      Python初体验 <i class="fa fa-chevron-right"></i>
+    <a href="/2020/12/17/2020-12-17-%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E5%90%88%E9%9B%86/" rel="next" title="排序算法合集">
+      排序算法合集 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
