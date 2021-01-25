@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-01-24T16:26:19.905Z</updated>
+  <updated>2021-01-25T14:56:12.333Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,13 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title></title>
+    <link href="http://example.com/2021/01/25/HUD1010Tempter%20of%20the%20Bone/"/>
+    <id>http://example.com/2021/01/25/HUD1010Tempter%20of%20the%20Bone/</id>
+    <published>2021-01-25T14:56:12.333Z</published>
+    <updated>2021-01-25T14:56:12.333Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>寒假的第一次周练总的来说难但是也有些是简单的比较常规的，感觉到了我对动态规划和搜索的理解还不是很清晰，无法灵活的运用上来，也就是看到题目不知道从何入手，看来要多刷点动态规划和搜索的题目来强化自己的理解，写了4题的我就直接下了</strong></p><h3 id="HUD1010Tempter-of-the-Bone"><a href="#HUD1010Tempter-of-the-Bone" class="headerlink" title="HUD1010Tempter of the Bone"></a>HUD1010<a href="http://acm.hdu.edu.cn/showproblem.php?pid=1010">Tempter of the Bone</a></h3><p>一看到题目的输入然后翻译了一下题目的意思我直接就想到了这是搜索的题目，而且和我做过的题目相当类似，但是我按照我的方法做好多次才做出来，不知道是不是字符串的缘故</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;寒假的第一次周练总的来说难但是也有些是简单的比较常规的，感觉到了我对动态规划和搜索的理解还不是很清晰，无法灵活的运用上来，也就是看到题目不知道从何入手，看来要多刷点动态规划和搜索的题目来强化自己的理解，写了4题的我就直接下了&lt;/strong&gt;&lt;/p&gt;
+&lt;h3</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>日记</title>
     <link href="http://example.com/2021/01/22/2021-1-23-%E6%97%A5%E8%AE%B01/"/>
     <id>http://example.com/2021/01/22/2021-1-23-%E6%97%A5%E8%AE%B01/</id>
     <published>2021-01-21T16:00:00.000Z</published>
-    <updated>2021-01-24T16:26:19.905Z</updated>
+    <updated>2021-01-25T15:24:46.246Z</updated>
     
-    <content type="html"><![CDATA[<p><em><u>他们就是我前进的动力❀</u></em></p><a id="more"></a><h3 id="2021-1-24"><a href="#2021-1-24" class="headerlink" title="2021-1-24"></a>2021-1-24</h3><ol><li>为什么今天上午一起床就又停电了啊啊啊啊啊啊啊啊？？？！</li><li>今天开始早睡早起,彻底改变自己的习惯,下午回二中打了一下午的球,腰真的好痛,看来有失必有得是真的,现在就在这篇日记里规划下自己的下星期吧</li><li>前一天规划好第二天要做的事</li></ol><table><thead><tr><th align="center">完成当日的新阶段学习</th><th align="center"></th><th align="center"></th><th align="center"></th><th align="center"></th><th align="center"></th><th align="center"></th></tr></thead><tbody><tr><td align="center">回顾之前的内容</td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center">写题解+网安</td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr></tbody></table><h3 id="2021-1-23"><a href="#2021-1-23" class="headerlink" title="2021-1-23"></a>2021-1-23</h3><ol><li>今天上午停电,来电之后就开始做ACS的周测,感觉到自己对于dp还有dfs的理解以及运用还是有待加强,明天开始我就要改变我的作息习惯了</li><li>搁置了一天的网安学习,在24号2点来看了两节止损,希望明天和后天把汇编语言直接解决了,然后直接进去kali还有二进制安全的学习</li><li>还有就是我觉得我的男枪水平有点提高？好久没去网吧打游戏,感觉还挺舒服的,哈哈</li></ol><h3 id="2021-1-22"><a href="#2021-1-22" class="headerlink" title="2021-1-22"></a>2021-1-22</h3><ol><li>今天租了9个月的服务器,还注册了域名,然后博客也再搭了一个,准备以后拿这个来写我的日记,在那边更新我的学习,主要是那个主题太好看了23333</li><li>ACS今天的广度优先搜索看的我一脸懵,视频里调用栈的方式我没看明白,明天还有周测不知道可不可以拿到一个好的名次😰</li><li>汇编语言今天都没看,我也不知道乐子咋那么快就学完了,可能是我看的慢,不过我已经到第十章了,继续加油！</li></ol>]]></content>
+    <content type="html"><![CDATA[<p><em><u>他们就是我前进的动力❀</u></em></p><a id="more"></a><h3 id="2020-1-25"><a href="#2020-1-25" class="headerlink" title="2020-1-25"></a>2020-1-25</h3><ol><li>今天上午把三个多小时的树蕨结构绪论给看完了，但是课后作业错了一个，对于时间复杂度以及时间复杂度的例子，我对视频里的最长公共子序列不太明白，不知道他那张表格是怎样画出来的，明天接着来看看</li><li>准备了好久准备写的题解报告，但是第一题我自己又去做一遍却又不对了耗了我好久时间但是我明明就觉得我的代码没问题，但是就是错了，今天大概只有八个小时，明天继续加油</li><li>多说一句ywq真的好强啊！！！向他学习</li></ol><h3 id="2021-1-24"><a href="#2021-1-24" class="headerlink" title="2021-1-24"></a>2021-1-24</h3><ol><li>为什么今天上午一起床就又停电了啊啊啊啊啊啊啊啊？？？！</li><li>今天开始早睡早起,彻底改变自己的习惯,下午回二中打了一下午的球,腰真的好痛,看来有失必有得是真的,现在就在这篇日记里规划下自己的下星期吧</li><li>前一天规划好第二天要做的事</li></ol><table><thead><tr><th align="center">完成当日的新阶段学习</th><th align="center">上午就看书把</th><th align="center"></th><th align="center"></th><th align="center"></th><th align="center"></th><th align="center"></th></tr></thead><tbody><tr><td align="center">回顾之前的内容</td><td align="center">数据结构向量内容</td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center">写题解+网安</td><td align="center">晚上写博客+看视频</td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr></tbody></table><h3 id="2021-1-23"><a href="#2021-1-23" class="headerlink" title="2021-1-23"></a>2021-1-23</h3><ol><li>今天上午停电,来电之后就开始做ACS的周测,感觉到自己对于dp还有dfs的理解以及运用还是有待加强,明天开始我就要改变我的作息习惯了</li><li>搁置了一天的网安学习,在24号2点来看了两节止损,希望明天和后天把汇编语言直接解决了,然后直接进去kali还有二进制安全的学习</li><li>还有就是我觉得我的男枪水平有点提高？好久没去网吧打游戏,感觉还挺舒服的,哈哈</li></ol><h3 id="2021-1-22"><a href="#2021-1-22" class="headerlink" title="2021-1-22"></a>2021-1-22</h3><ol><li>今天租了9个月的服务器,还注册了域名,然后博客也再搭了一个,准备以后拿这个来写我的日记,在那边更新我的学习,主要是那个主题太好看了23333</li><li>ACS今天的广度优先搜索看的我一脸懵,视频里调用栈的方式我没看明白,明天还有周测不知道可不可以拿到一个好的名次😰</li><li>汇编语言今天都没看,我也不知道乐子咋那么快就学完了,可能是我看的慢,不过我已经到第十章了,继续加油！</li></ol>]]></content>
     
     
     <summary type="html">&lt;p&gt;&lt;em&gt;&lt;u&gt;他们就是我前进的动力❀&lt;/u&gt;&lt;/em&gt;&lt;/p&gt;</summary>
