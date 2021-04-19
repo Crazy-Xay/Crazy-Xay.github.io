@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Tyl丶的博客</title>
+  <title>jianp的国度</title>
   
   <subtitle>记录我的生活</subtitle>
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-02-17T14:16:07.016Z</updated>
+  <updated>2021-03-23T15:37:12.543Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://example.com/2021/01/22/2021-1-23-%E6%97%A5%E8%AE%B01/"/>
     <id>http://example.com/2021/01/22/2021-1-23-%E6%97%A5%E8%AE%B01/</id>
     <published>2021-01-21T16:00:00.000Z</published>
-    <updated>2021-02-17T14:16:07.016Z</updated>
+    <updated>2021-03-23T15:37:12.543Z</updated>
     
-    <content type="html"><![CDATA[<p><em><u>他们就是我前进的动力❀</u></em></p><a id="more"></a><p>作息时间表</p><table><thead><tr><th align="center">数据结构</th></tr></thead><tbody><tr><td align="center">刷题+网安</td></tr><tr><td align="center">跑步+博客</td></tr></tbody></table><h3 id="2021-2-17"><a href="#2021-2-17" class="headerlink" title="2021-2-17"></a>2021-2-17</h3><ol><li>时隔多天我又要开始我的日记了，之前因为过年没有时间写，而且走亲戚什么的事情也很多</li><li>今天把二叉树看完了，明天把之前落下的补完就进行新的学习了</li></ol><h3 id="2021-2-7"><a href="#2021-2-7" class="headerlink" title="2021-2-7"></a>2021-2-7</h3><ol><li>上午又做了一会周练，感觉现在自己做题容易进入死胡同出不来，一直在那里循环循环我心态真的爆炸了，C题WA了差不多20次</li><li>数据结构也停了一天</li></ol><h3 id="2021-2-6"><a href="#2021-2-6" class="headerlink" title="2021-2-6"></a>2021-2-6</h3><ol><li>今天去外公家端节，白天都没有学习，下午在那里打了三个小时的球</li><li>晚上回家从八点钟做到12点钟4个小时的周测我粗心烦了好多错误~~~，明天在搞下</li><li>夏日寒风丶雄起！</li></ol><h3 id="2021-2-4"><a href="#2021-2-4" class="headerlink" title="2021-2-4"></a>2021-2-4</h3><ol><li>PTA五题做完了，还有数据结构stcak的内容看了一些，对之前的内容也大概知道了</li><li>关于数据结构的模板大概记住了，但是邓俊辉老师的写法还是有点难看懂</li></ol><h3 id="2021-2-3"><a href="#2021-2-3" class="headerlink" title="2021-2-3"></a>2021-2-3</h3><ol><li>把题解贴了上去，看了会stl库和位运算，明天开始正式的好起来，我宣布永远的好起来！！！</li></ol><h3 id="2021-2-2"><a href="#2021-2-2" class="headerlink" title="2021-2-2"></a>2021-2-2</h3><ol><li>上午睡到11点起来，起来之后就在写第二次周测的博客，然后还有map和马的管辖题解没有写完，明天把他补完</li><li>下午和晚上看了会STL中的algorithm用法其中的一个全排列函数非常方便！！！</li></ol><h3 id="2021-2-1"><a href="#2021-2-1" class="headerlink" title="2021-2-1"></a>2021-2-1</h3><ol><li>又是划水的一天我不晓得为甚莫，一定要克服自己的懒惰了</li><li>看了一小会的数据结构，然后写了下前面的题目还有博客</li><li>对了我的主题代码块终于显示正常了，贼好看！！！</li></ol><h3 id="2021-1-31"><a href="#2021-1-31" class="headerlink" title="2021-1-31"></a>2021-1-31</h3><p>今天不想写日记</p><h3 id="2021-1-30"><a href="#2021-1-30" class="headerlink" title="2021-1-30"></a>2021-1-30</h3><ol><li>继续做了一题就做不下去了，感觉自己对于深度搜索和广度搜索还是不懂，还有动态规划，要继续加强</li><li>下午去打球了</li><li>晚上也没做事，今天就当放假一天了吧~~~</li></ol><h3 id="2021-1-29"><a href="#2021-1-29" class="headerlink" title="2021-1-29"></a>2021-1-29</h3><ol><li>今天起来就是十一点多了，然后学了2个小时，到了差不多2点我就去睡觉了，然后下午朋友叫我去打球一直到晚上9点才回家</li><li>回家之后就是紧张刺激的大乱斗了，男枪是真滴强啊</li><li>ACS周测做到4点钟，我来写了这篇日记，cleangd一下准备睡觉了，今天大概只学了6个小时，明天继续加油！！！</li></ol><h3 id="2021-1-28"><a href="#2021-1-28" class="headerlink" title="2021-1-28"></a>2021-1-28</h3><ol><li>上午睡到11点起来我服了，后面吃完饭也没事干玩了一会</li><li>下午一直在看数据结构的视频断断续续做了一些前面的题目，发现蓝桥杯里的高精度的那些不会做，蓝桥杯还是有难题的，要重视起来</li><li>晚上把数据结构干完了，还是要多看几遍，还没搞清楚c++的对象和::含义还有视屏里头的template ‘<typename t>‘是什么意思，好难办，而且计算复杂度还要再去看看</typename></li></ol><h3 id="2021-1-27"><a href="#2021-1-27" class="headerlink" title="2021-1-27"></a>2021-1-27</h3><ol><li>上午写了会题解，肚子不太舒服</li><li>晚上出去上网了啥也没干今天就休息一天吧明天继续</li></ol><h3 id="2021-1-26"><a href="#2021-1-26" class="headerlink" title="2021-1-26"></a>2021-1-26</h3><ol><li>今天又是熬夜的一天到底自己的自制力为啥这样！！！</li><li>开始进行linux的学习了，今天刚刚看到ls命令明天加油</li><li>博客第一题搞了我好久好久但是我今天终于可以自己完整的写出来了，我好开心，明天继续后面的题目，争取写多一些，来丰富我的博客</li><li>刚刚更换完notepad++来进行c++的编译和运行不得不说notepad++的界面以及书写真的好看又舒服，不过就是运行的时候有点麻烦必须要先保存之后在进行编译运行不然的话就是原先的代码继续运行😄</li></ol><h3 id="2021-1-25"><a href="#2021-1-25" class="headerlink" title="2021-1-25"></a>2021-1-25</h3><ol><li>今天上午把三个多小时的树蕨结构绪论给看完了，但是课后作业错了一个，对于时间复杂度以及时间复杂度的例子，我对视频里的最长公共子序列不太明白，不知道他那张表格是怎样画出来的，明天接着来看看</li><li>准备了好久准备写的题解报告，但是第一题我自己又去做一遍却又不对了耗了我好久时间但是我明明就觉得我的代码没问题，但是就是错了，今天大概只有八个小时，明天继续加油</li><li>多说一句ywq真的好强啊！！！向他学习</li></ol><h3 id="2021-1-24"><a href="#2021-1-24" class="headerlink" title="2021-1-24"></a>2021-1-24</h3><ol><li>为什么今天上午一起床就又停电了啊啊啊啊啊啊啊啊？？？！</li><li>今天开始早睡早起,彻底改变自己的习惯,下午回二中打了一下午的球,腰真的好痛,看来有失必有得是真的,现在就在这篇日记里规划下自己的下星期吧</li><li>前一天规划好第二天要做的事</li></ol><table><thead><tr><th align="center">完成当日的新阶段学习</th><th align="center">上午就看书把</th><th align="center">上午起来看书一样的操作系统</th><th align="center">上午一样看书</th><th align="center">看书看书看书</th><th align="center">做题目做的有点晚了就晚点起来吧</th><th align="center">作息调整</th></tr></thead><tbody><tr><td align="center">回顾之前的内容</td><td align="center">数据结构向量内容</td><td align="center">数据结构向量</td><td align="center">数据结构视频复习回顾</td><td align="center">蓝桥杯+补题+写题解</td><td align="center">看视频+写博客加深记忆</td><td align="center">博客</td></tr><tr><td align="center">写题解+网安</td><td align="center">晚上写博客+看视频</td><td align="center">晚上写博客+看视频</td><td align="center">写博客+Linux</td><td align="center">Linux专场</td><td align="center">Linux666</td><td align="center">linux</td></tr></tbody></table><h3 id="2021-1-23"><a href="#2021-1-23" class="headerlink" title="2021-1-23"></a>2021-1-23</h3><ol><li>今天上午停电,来电之后就开始做ACS的周测,感觉到自己对于dp还有dfs的理解以及运用还是有待加强,明天开始我就要改变我的作息习惯了</li><li>搁置了一天的网安学习,在24号2点来看了两节止损,希望明天和后天把汇编语言直接解决了,然后直接进去kali还有二进制安全的学习</li><li>还有就是我觉得我的男枪水平有点提高？好久没去网吧打游戏,感觉还挺舒服的,哈哈</li></ol><h3 id="2021-1-22"><a href="#2021-1-22" class="headerlink" title="2021-1-22"></a>2021-1-22</h3><ol><li>今天租了9个月的服务器,还注册了域名,然后博客也再搭了一个,准备以后拿这个来写我的日记,在那边更新我的学习,主要是那个主题太好看了23333</li><li>ACS今天的广度优先搜索看的我一脸懵,视频里调用栈的方式我没看明白,明天还有周测不知道可不可以拿到一个好的名次😰</li><li>汇编语言今天都没看,我也不知道乐子咋那么快就学完了,可能是我看的慢,不过我已经到第十章了,继续加油！</li></ol>]]></content>
+    <content type="html"><![CDATA[<p><em><u>他们就是我前进的动力❀</u></em></p><a id="more"></a><h3 id="2021-3-23"><a href="#2021-3-23" class="headerlink" title="2021-3-23"></a>2021-3-23</h3><ol><li>今天看了一会IDA Pro的那本书，逆向工程的出题还有限制？不过还没有看到ida的第三章</li><li>今天没有写算法但是看了python，之后想搞那个bongocat但是没有成功明天再继续弄下</li></ol><h3 id="2021-2-17"><a href="#2021-2-17" class="headerlink" title="2021-2-17"></a>2021-2-17</h3><ol><li>时隔多天我又要开始我的日记了，之前因为过年没有时间写，而且走亲戚什么的事情也很多</li><li>今天把二叉树看完了，明天把之前落下的补完就进行新的学习了</li></ol><h3 id="2021-2-7"><a href="#2021-2-7" class="headerlink" title="2021-2-7"></a>2021-2-7</h3><ol><li>上午又做了一会周练，感觉现在自己做题容易进入死胡同出不来，一直在那里循环循环我心态真的爆炸了，C题WA了差不多20次</li><li>数据结构也停了一天</li></ol><h3 id="2021-2-6"><a href="#2021-2-6" class="headerlink" title="2021-2-6"></a>2021-2-6</h3><ol><li>今天去外公家端节，白天都没有学习，下午在那里打了三个小时的球</li><li>晚上回家从八点钟做到12点钟4个小时的周测我粗心烦了好多错误~~~，明天在搞下</li><li>夏日寒风丶雄起！</li></ol><h3 id="2021-2-4"><a href="#2021-2-4" class="headerlink" title="2021-2-4"></a>2021-2-4</h3><ol><li>PTA五题做完了，还有数据结构stcak的内容看了一些，对之前的内容也大概知道了</li><li>关于数据结构的模板大概记住了，但是邓俊辉老师的写法还是有点难看懂</li></ol><h3 id="2021-2-3"><a href="#2021-2-3" class="headerlink" title="2021-2-3"></a>2021-2-3</h3><ol><li>把题解贴了上去，看了会stl库和位运算，明天开始正式的好起来，我宣布永远的好起来！！！</li></ol><h3 id="2021-2-2"><a href="#2021-2-2" class="headerlink" title="2021-2-2"></a>2021-2-2</h3><ol><li>上午睡到11点起来，起来之后就在写第二次周测的博客，然后还有map和马的管辖题解没有写完，明天把他补完</li><li>下午和晚上看了会STL中的algorithm用法其中的一个全排列函数非常方便！！！</li></ol><h3 id="2021-2-1"><a href="#2021-2-1" class="headerlink" title="2021-2-1"></a>2021-2-1</h3><ol><li>又是划水的一天我不晓得为甚莫，一定要克服自己的懒惰了</li><li>看了一小会的数据结构，然后写了下前面的题目还有博客</li><li>对了我的主题代码块终于显示正常了，贼好看！！！</li></ol><h3 id="2021-1-31"><a href="#2021-1-31" class="headerlink" title="2021-1-31"></a>2021-1-31</h3><p>今天不想写日记</p><h3 id="2021-1-30"><a href="#2021-1-30" class="headerlink" title="2021-1-30"></a>2021-1-30</h3><ol><li>继续做了一题就做不下去了，感觉自己对于深度搜索和广度搜索还是不懂，还有动态规划，要继续加强</li><li>下午去打球了</li><li>晚上也没做事，今天就当放假一天了吧~~~</li></ol><h3 id="2021-1-29"><a href="#2021-1-29" class="headerlink" title="2021-1-29"></a>2021-1-29</h3><ol><li>今天起来就是十一点多了，然后学了2个小时，到了差不多2点我就去睡觉了，然后下午朋友叫我去打球一直到晚上9点才回家</li><li>回家之后就是紧张刺激的大乱斗了，男枪是真滴强啊</li><li>ACS周测做到4点钟，我来写了这篇日记，cleangd一下准备睡觉了，今天大概只学了6个小时，明天继续加油！！！</li></ol><h3 id="2021-1-28"><a href="#2021-1-28" class="headerlink" title="2021-1-28"></a>2021-1-28</h3><ol><li>上午睡到11点起来我服了，后面吃完饭也没事干玩了一会</li><li>下午一直在看数据结构的视频断断续续做了一些前面的题目，发现蓝桥杯里的高精度的那些不会做，蓝桥杯还是有难题的，要重视起来</li><li>晚上把数据结构干完了，还是要多看几遍，还没搞清楚c++的对象和::含义还有视屏里头的template ‘<typename t>‘是什么意思，好难办，而且计算复杂度还要再去看看</typename></li></ol><h3 id="2021-1-27"><a href="#2021-1-27" class="headerlink" title="2021-1-27"></a>2021-1-27</h3><ol><li>上午写了会题解，肚子不太舒服</li><li>晚上出去上网了啥也没干今天就休息一天吧明天继续</li></ol><h3 id="2021-1-26"><a href="#2021-1-26" class="headerlink" title="2021-1-26"></a>2021-1-26</h3><ol><li>今天又是熬夜的一天到底自己的自制力为啥这样！！！</li><li>开始进行linux的学习了，今天刚刚看到ls命令明天加油</li><li>博客第一题搞了我好久好久但是我今天终于可以自己完整的写出来了，我好开心，明天继续后面的题目，争取写多一些，来丰富我的博客</li><li>刚刚更换完notepad++来进行c++的编译和运行不得不说notepad++的界面以及书写真的好看又舒服，不过就是运行的时候有点麻烦必须要先保存之后在进行编译运行不然的话就是原先的代码继续运行😄</li></ol><h3 id="2021-1-25"><a href="#2021-1-25" class="headerlink" title="2021-1-25"></a>2021-1-25</h3><ol><li>今天上午把三个多小时的树蕨结构绪论给看完了，但是课后作业错了一个，对于时间复杂度以及时间复杂度的例子，我对视频里的最长公共子序列不太明白，不知道他那张表格是怎样画出来的，明天接着来看看</li><li>准备了好久准备写的题解报告，但是第一题我自己又去做一遍却又不对了耗了我好久时间但是我明明就觉得我的代码没问题，但是就是错了，今天大概只有八个小时，明天继续加油</li><li>多说一句ywq真的好强啊！！！向他学习</li></ol><h3 id="2021-1-24"><a href="#2021-1-24" class="headerlink" title="2021-1-24"></a>2021-1-24</h3><ol><li>为什么今天上午一起床就又停电了啊啊啊啊啊啊啊啊？？？！</li><li>今天开始早睡早起,彻底改变自己的习惯,下午回二中打了一下午的球,腰真的好痛,看来有失必有得是真的,现在就在这篇日记里规划下自己的下星期吧</li><li>前一天规划好第二天要做的事</li></ol><table><thead><tr><th align="center">完成当日的新阶段学习</th><th align="center">上午就看书把</th><th align="center">上午起来看书一样的操作系统</th><th align="center">上午一样看书</th><th align="center">看书看书看书</th><th align="center">做题目做的有点晚了就晚点起来吧</th><th align="center">作息调整</th></tr></thead><tbody><tr><td align="center">回顾之前的内容</td><td align="center">数据结构向量内容</td><td align="center">数据结构向量</td><td align="center">数据结构视频复习回顾</td><td align="center">蓝桥杯+补题+写题解</td><td align="center">看视频+写博客加深记忆</td><td align="center">博客</td></tr><tr><td align="center">写题解+网安</td><td align="center">晚上写博客+看视频</td><td align="center">晚上写博客+看视频</td><td align="center">写博客+Linux</td><td align="center">Linux专场</td><td align="center">Linux666</td><td align="center">linux</td></tr></tbody></table><h3 id="2021-1-23"><a href="#2021-1-23" class="headerlink" title="2021-1-23"></a>2021-1-23</h3><ol><li>今天上午停电,来电之后就开始做ACS的周测,感觉到自己对于dp还有dfs的理解以及运用还是有待加强,明天开始我就要改变我的作息习惯了</li><li>搁置了一天的网安学习,在24号2点来看了两节止损,希望明天和后天把汇编语言直接解决了,然后直接进去kali还有二进制安全的学习</li><li>还有就是我觉得我的男枪水平有点提高？好久没去网吧打游戏,感觉还挺舒服的,哈哈</li></ol><h3 id="2021-1-22"><a href="#2021-1-22" class="headerlink" title="2021-1-22"></a>2021-1-22</h3><ol><li>今天租了9个月的服务器,还注册了域名,然后博客也再搭了一个,准备以后拿这个来写我的日记,在那边更新我的学习,主要是那个主题太好看了23333</li><li>ACS今天的广度优先搜索看的我一脸懵,视频里调用栈的方式我没看明白,明天还有周测不知道可不可以拿到一个好的名次😰</li><li>汇编语言今天都没看,我也不知道乐子咋那么快就学完了,可能是我看的慢,不过我已经到第十章了,继续加油！</li></ol>]]></content>
     
     
     <summary type="html">&lt;p&gt;&lt;em&gt;&lt;u&gt;他们就是我前进的动力❀&lt;/u&gt;&lt;/em&gt;&lt;/p&gt;</summary>
@@ -212,32 +212,6 @@
   </entry>
   
   <entry>
-    <title>Python初体验</title>
-    <link href="http://example.com/2020/12/17/2020-12-17-Python%E5%88%9D%E4%BD%93%E9%AA%8C/"/>
-    <id>http://example.com/2020/12/17/2020-12-17-Python%E5%88%9D%E4%BD%93%E9%AA%8C/</id>
-    <published>2020-12-16T16:00:00.000Z</published>
-    <updated>2021-01-09T06:28:16.608Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="1-类型"><a href="#1-类型" class="headerlink" title="1.类型"></a>1.类型</h3><table><thead><tr><th align="center">字符型</th><th align="center">整数型</th><th align="center">浮点数型</th><th align="center">字符串型</th></tr></thead><tbody><tr><td align="center"><strong>布尔型</strong></td><td align="center"></td><td align="center"></td><td align="center"></td></tr></tbody></table><h3 id="注：Python注重缩进"><a href="#注：Python注重缩进" class="headerlink" title="注：Python注重缩进"></a>注：Python注重缩进</h3>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;1-类型&quot;&gt;&lt;a href=&quot;#1-类型&quot; class=&quot;headerlink&quot; title=&quot;1.类型&quot;&gt;&lt;/a&gt;1.类型&lt;/h3&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;字符型&lt;/th&gt;
-&lt;th align=&quot;cente</summary>
-      
-    
-    
-    
-    
-    <category term="-Python" scheme="http://example.com/tags/Python/"/>
-    
-  </entry>
-  
-  <entry>
     <title>指针编写函数invstr--字符串逆序存放输出</title>
     <link href="http://example.com/2020/12/17/2020-12-17-%E6%8C%87%E9%92%88%E7%BC%96%E5%86%99%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%80%86%E5%BA%8F%E5%AD%98%E6%94%BE%E8%BE%93%E5%87%BA/"/>
     <id>http://example.com/2020/12/17/2020-12-17-%E6%8C%87%E9%92%88%E7%BC%96%E5%86%99%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%80%86%E5%BA%8F%E5%AD%98%E6%94%BE%E8%BE%93%E5%87%BA/</id>
@@ -275,6 +249,32 @@
     
     
     <category term="Programming-ACS" scheme="http://example.com/tags/Programming-ACS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python初体验</title>
+    <link href="http://example.com/2020/12/17/2020-12-17-Python%E5%88%9D%E4%BD%93%E9%AA%8C/"/>
+    <id>http://example.com/2020/12/17/2020-12-17-Python%E5%88%9D%E4%BD%93%E9%AA%8C/</id>
+    <published>2020-12-16T16:00:00.000Z</published>
+    <updated>2021-01-09T06:28:16.608Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="1-类型"><a href="#1-类型" class="headerlink" title="1.类型"></a>1.类型</h3><table><thead><tr><th align="center">字符型</th><th align="center">整数型</th><th align="center">浮点数型</th><th align="center">字符串型</th></tr></thead><tbody><tr><td align="center"><strong>布尔型</strong></td><td align="center"></td><td align="center"></td><td align="center"></td></tr></tbody></table><h3 id="注：Python注重缩进"><a href="#注：Python注重缩进" class="headerlink" title="注：Python注重缩进"></a>注：Python注重缩进</h3>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;1-类型&quot;&gt;&lt;a href=&quot;#1-类型&quot; class=&quot;headerlink&quot; title=&quot;1.类型&quot;&gt;&lt;/a&gt;1.类型&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;字符型&lt;/th&gt;
+&lt;th align=&quot;cente</summary>
+      
+    
+    
+    
+    
+    <category term="-Python" scheme="http://example.com/tags/Python/"/>
     
   </entry>
   
